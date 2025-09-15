@@ -1,0 +1,7 @@
+# FOLDERS
+.firebase/
+.vscode/
+
+# FILES
+.firebase-debug.log
+pglite-debug.log
