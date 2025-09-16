@@ -18,6 +18,11 @@
 				"source": "/sandbox",
 				"destination": "https://www.itecanada.org/students/student-chapters/university-of-waterloo/sandbox/",
 				"type": 301
+			},
+			{
+				"source": "/discord",
+				"destination": "https://discord.gg/uBh5kNvHP8",
+				"type": 301
 			}
 		]
 	}
