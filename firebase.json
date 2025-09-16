@@ -2,6 +2,13 @@
 	"hosting": {
 		"public": "public",
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-		"cleanUrls": true
+		"cleanUrls": true,
+		"redirects": [
+			{
+				"source": "/aecom",
+				"destination": "https://forms.cloud.microsoft/r/P64t1MbARM",
+				"type": 301
+			}
+		]
 	}
 }
