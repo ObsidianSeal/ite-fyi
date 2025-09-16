@@ -8,6 +8,11 @@
 				"source": "/aecom",
 				"destination": "https://forms.cloud.microsoft/r/P64t1MbARM",
 				"type": 301
+			},
+			{
+				"source": "/join",
+				"destination": "https://ite.fyi/ITE%20@%20UW%20-%20about%20us%20&%20how%20to%20join.pdf",
+				"type": 301
 			}
 		]
 	}
