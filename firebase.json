@@ -23,6 +23,16 @@
 				"source": "/discord",
 				"destination": "https://discord.gg/uBh5kNvHP8",
 				"type": 301
+			},
+			{
+				"source": "/affinity",
+				"destination": "https://drive.google.com/drive/folders/1QuXWD-R8QQvFSSrKdxeLndi6iipqcdSN?usp=sharing",
+				"type": 301
+			},
+			{
+				"source": "/affinity-mac",
+				"destination": "https://drive.google.com/drive/folders/1DiFvJRh178DL1oZOQoeeCs8Jfc8uI8wz?usp=sharing",
+				"type": 301
 			}
 		]
 	}
