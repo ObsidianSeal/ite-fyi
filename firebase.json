@@ -10,6 +10,11 @@
 				"type": 301
 			},
 			{
+				"source": "/oct27admin",
+				"destination": "https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?subpage=design&FormId=h1o6cprzIkqSRz_CQMATlmDng-WPj7xKjPxBfRZG3apUNFBJSEs5MzMxRFlTRk5MN0pFVFpSU0xRSy4u&Token=dd235ff1822145d180497a0587d12adb",
+				"type": 301
+			},
+			{
 				"source": "/join",
 				"destination": "https://ite.fyi/ITE%20@%20UW%20-%20about%20us%20&%20how%20to%20join.pdf",
 				"type": 301
