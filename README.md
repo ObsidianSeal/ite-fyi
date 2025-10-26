@@ -6,7 +6,7 @@
 
 This domain is my personal link shortening, file hosting, and other random stuff service.
 
-Also check out my other domains&rsquo GitHub repositories:
+Also check out my other domains&rsquo; GitHub repositories:
 
 -    [pinniped.page](https://github.com/ObsidianSeal/pinniped.page)
 -    [bmg.engineer](https://github.com/ObsidianSeal/bmg-engineer)
