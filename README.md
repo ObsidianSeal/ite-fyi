@@ -1,6 +1,6 @@
 # ITE FYI
 
-**I**nteresting **T**hings **E**verywhere, **F**or **Y**our **I**nformation
+<u><b>I</u></b>nteresting <u><b>T</u></b>hings <u><b>E</u></b>verywhere, <u><b>F</u></b>or <u><b>Y</u></b>our <u><b>I</u></b>nformation
 
 [https://ite.fyi/](https://ite.fyi/)
 
