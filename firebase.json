@@ -5,13 +5,8 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
-				"source": "/oct27",
-				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlmDng-WPj7xKjPxBfRZG3apUNFBJSEs5MzMxRFlTRk5MN0pFVFpSU0xRSy4u",
-				"type": 301
-			},
-			{
-				"source": "/oct27admin",
-				"destination": "https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?subpage=design&FormId=h1o6cprzIkqSRz_CQMATlmDng-WPj7xKjPxBfRZG3apUNFBJSEs5MzMxRFlTRk5MN0pFVFpSU0xRSy4u&Token=dd235ff1822145d180497a0587d12adb",
+				"source": "/vissim",
+				"destination": "https://forms.cloud.microsoft/r/D4wPt79bku",
 				"type": 301
 			},
 			{
@@ -37,11 +32,6 @@
 			{
 				"source": "/affinity-mac",
 				"destination": "https://drive.google.com/drive/folders/1DiFvJRh178DL1oZOQoeeCs8Jfc8uI8wz?usp=sharing",
-				"type": 301
-			},
-			{
-				"source": "/oct-music",
-				"destination": "https://pinniped.page/projects/playlists#%F0%9F%8E%B5%20-%20October%202025",
 				"type": 301
 			}
 		]
