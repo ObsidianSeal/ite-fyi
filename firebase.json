@@ -33,6 +33,11 @@
 				"source": "/affinity-mac",
 				"destination": "https://drive.google.com/drive/folders/1DiFvJRh178DL1oZOQoeeCs8Jfc8uI8wz?usp=sharing",
 				"type": 301
+			},
+			{
+				"source": "/november-playlist",
+				"destination": "https://pinniped.page/projects/playlists#%F0%9F%8E%B5%20-%20November%202025",
+				"type": 301
 			}
 		]
 	}
