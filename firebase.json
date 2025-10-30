@@ -38,6 +38,16 @@
 				"source": "/november-playlist",
 				"destination": "https://pinniped.page/projects/playlists#%F0%9F%8E%B5%20-%20November%202025",
 				"type": 301
+			},
+			{
+				"source": "/LCmods",
+				"destination": "https://pinniped.page/download?x=LethalCompanyMods.zip",
+				"type": 301
+			},
+			{
+				"source": "/LCmusic",
+				"destination": "https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T",
+				"type": 301
 			}
 		]
 	}
