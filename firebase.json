@@ -41,12 +41,22 @@
 			},
 			{
 				"source": "/LCmods",
-				"destination": "https://pinniped.page/download?x=LethalCompanyMods.zip",
+				"destination": "https://github.com/ObsidianSeal/LethalCompanyMods",
+				"type": 301
+			},
+			{
+				"source": "/LCmods+",
+				"destination": "https://github.com/ObsidianSeal/LethalCompanyMods/archive/refs/heads/main.zip",
 				"type": 301
 			},
 			{
 				"source": "/LCmusic",
 				"destination": "https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T",
+				"type": 301
+			},
+			{
+				"source": "/LCmusic+",
+				"destination": "https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T&jct=IwitjRkzH9GM79EZxAWGHA",
 				"type": 301
 			}
 		]
