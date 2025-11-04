@@ -5,8 +5,8 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
-				"source": "/vissim",
-				"destination": "https://forms.cloud.microsoft/r/D4wPt79bku",
+				"source": "/contest",
+				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUM09FQzVSQ0U4S1VOR1dDOUpMNkpRUDBUUi4u",
 				"type": 301
 			},
 			{
