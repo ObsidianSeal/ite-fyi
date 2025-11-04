@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/vissim-tutorial",
+				"destination": "https://drive.google.com/drive/folders/1LMd1q1szayePafx99riDmok9RJ5CRTC4?usp=sharing",
+				"type": 301
+			},
+			{
 				"source": "/contest",
 				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUM09FQzVSQ0U4S1VOR1dDOUpMNkpRUDBUUi4u",
 				"type": 301
