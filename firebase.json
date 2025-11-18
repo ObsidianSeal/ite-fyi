@@ -63,6 +63,11 @@
 				"source": "/LCmusic+",
 				"destination": "https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T&jct=IwitjRkzH9GM79EZxAWGHA",
 				"type": 301
+			},
+			{
+				"source": "/cive29",
+				"destination": "https://discord.gg/6HJsZ9P4",
+				"type": 301
 			}
 		]
 	}
