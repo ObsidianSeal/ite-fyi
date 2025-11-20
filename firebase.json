@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/cage-match",
+				"destination": "https://forms.office.com/r/d0eBbS14CF",
+				"type": 301
+			},
+			{
 				"source": "/gis",
 				"destination": "https://forms.cloud.microsoft/r/xcmweMrqf8",
 				"type": 301
