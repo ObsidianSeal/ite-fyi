@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/espuma",
+				"destination": "https://www.youtube.com/watch?v=R1tgBxuRqZ8",
+				"type": 301
+			},
+			{
 				"source": "/cage-match",
 				"destination": "https://forms.office.com/r/d0eBbS14CF",
 				"type": 301
