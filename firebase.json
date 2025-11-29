@@ -5,21 +5,6 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
-				"source": "/espuma",
-				"destination": "https://www.youtube.com/watch?v=R1tgBxuRqZ8",
-				"type": 301
-			},
-			{
-				"source": "/cage-match",
-				"destination": "https://forms.office.com/r/d0eBbS14CF",
-				"type": 301
-			},
-			{
-				"source": "/contest",
-				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUM09FQzVSQ0U4S1VOR1dDOUpMNkpRUDBUUi4u",
-				"type": 301
-			},
-			{
 				"source": "/join",
 				"destination": "https://ite.fyi/ITE%20@%20UW%20-%20about%20us%20&%20how%20to%20join.pdf",
 				"type": 301
@@ -45,11 +30,6 @@
 				"type": 301
 			},
 			{
-				"source": "/november-playlist",
-				"destination": "https://pinniped.page/projects/playlists#%F0%9F%8E%B5%20-%20November%202025",
-				"type": 301
-			},
-			{
 				"source": "/LCmods",
 				"destination": "https://github.com/ObsidianSeal/LethalCompanyMods",
 				"type": 301
@@ -72,6 +52,11 @@
 			{
 				"source": "/cive29",
 				"destination": "https://discord.gg/nESVAZgn26",
+				"type": 301
+			},
+			{
+				"source": "/espuma",
+				"destination": "https://www.youtube.com/watch?v=R1tgBxuRqZ8",
 				"type": 301
 			}
 		]
