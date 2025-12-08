@@ -92,9 +92,9 @@
 					});
 			}
 
-			setInterval(() => {
-				setMap();
-			}, 3000);
+			// setInterval(() => {
+			// 	setMap();
+			// }, 3000);
 			setMap();
 
 			let fromX = 0,
@@ -111,6 +111,8 @@
 
 				offsetZ -= fromY - toY;
 				offsetX -= fromX - toX;
+
+				setMap();
 			});
 		</script>
 	</body>
