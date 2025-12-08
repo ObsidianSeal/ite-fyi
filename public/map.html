@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en-CA">
+	<head>
+		<title>ITELiveMap</title>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color" content="#00597C" />
+
+		<!-- <script src="https://kit.fontawesome.com/c6ef7d4818.js" crossorigin="anonymous"></script> -->
+
+		<meta property="og:url" content="https://ite.fyi/map" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="ITELiveMap" />
+		<meta property="og:description" content="ITELiveMap" />
+		<meta property="og:image" content="https://ite.fyi/ITE%20logo%20-%20regular.png" />
+
+		<meta name="description" content="ITELiveMap" />
+		<meta name="keywords" content="live, Minecraft, map" />
+
+		<style>
+			* {
+				margin: 0;
+				border: 0;
+				padding: 0;
+			}
+
+			body {
+				width: 100dvw;
+				height: 100dvh;
+
+				overflow: hidden;
+				cursor: grab;
+			}
+
+			div.map-square {
+				position: absolute;
+
+				width: 10px;
+				height: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="map"></div>
+
+		<script type="module">
+			"use strict";
+
+			let screenWidth = window.innerWidth;
+			let screenHeight = window.innerHeight;
+			let size = 10;
+			let offsetZ = screenHeight / 2 - size / 2;
+			let offsetX = screenWidth / 2 - size / 2;
+
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+			import { getDatabase, ref, set, get, push, remove } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
+
+			const firebaseConfig = {
+				apiKey: "AIzaSyDJO9lZG6BGaXXn140P6hhSdLTPx1oVM90",
+				authDomain: "ite-fyi.firebaseapp.com",
+				databaseURL: "https://ite-fyi-default-rtdb.firebaseio.com",
+				projectId: "ite-fyi",
+				storageBucket: "ite-fyi.firebasestorage.app",
+				messagingSenderId: "976641175922",
+				appId: "1:976641175922:web:1792e862b235fee7d26deb",
+			};
+			const app = initializeApp(firebaseConfig);
+			const database = getDatabase();
+
+			async function setMap() {
+				document.querySelector(".map").innerHTML = "";
+
+				await get(ref(database, "mc/map"))
+					.then((result) => {
+						let data = result.val();
+
+						for (let coordinate in data) {
+							let x = coordinate.split(",")[0];
+							let z = coordinate.split(",")[1];
+
+							let square = document.createElement("div");
+							square.classList.add("map-square");
+							square.style = `top: ${z * 10 + offsetZ}px; left: ${x * 10 + offsetX}px; background-color: rgb(${data[coordinate]})`;
+							document.querySelector(".map").appendChild(square);
+						}
+					})
+					.catch((error) => {
+						console.error(error);
+					});
+			}
+
+			setInterval(() => {
+				setMap();
+			}, 3000);
+			setMap();
+
+			let fromX = 0,
+				fromY = 0,
+				toX = 0,
+				toY = 0;
+			window.addEventListener("mousedown", (event) => {
+				fromX = event.pageX;
+				fromY = event.pageY;
+			});
+			window.addEventListener("mouseup", (event) => {
+				toX = event.pageX;
+				toY = event.pageY;
+
+				offsetZ -= fromY - toY;
+				offsetX -= fromX - toX;
+			});
+		</script>
+	</body>
+</html>
