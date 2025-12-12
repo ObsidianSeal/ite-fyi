@@ -49,11 +49,13 @@
 		<script type="module">
 			"use strict";
 
+			const SIZE = 10;
+			const REGION_SIZE = 16;
+
 			let screenWidth = window.innerWidth;
 			let screenHeight = window.innerHeight;
-			let size = 10;
-			let offsetZ = screenHeight / 2 - size / 2;
-			let offsetX = screenWidth / 2 - size / 2;
+			let offsetZ = screenHeight / 2 - SIZE / 2;
+			let offsetX = screenWidth / 2 - SIZE / 2;
 
 			import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 			import { getDatabase, ref, set, get, push, remove } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
@@ -71,32 +73,40 @@
 			const database = getDatabase();
 
 			async function setMap() {
-				document.querySelector(".map").innerHTML = "";
+				document.querySelector(".map").innerHTML = ""; // clear "canvas"
 
 				await get(ref(database, "mc/map"))
 					.then((result) => {
 						let data = result.val();
 
-						for (let coordinate in data) {
-							let x = coordinate.split(",")[0];
-							let z = coordinate.split(",")[1];
+						for (let region in data) {
+							let regionX = region.split(",")[0];
+							let regionZ = region.split(",")[1];
+							let blockIndex = 0;
 
-							let square = document.createElement("div");
-							square.classList.add("map-square");
-							square.style = `top: ${z * 10 + offsetZ}px; left: ${x * 10 + offsetX}px; background-color: rgb(${data[coordinate]})`;
-							document.querySelector(".map").appendChild(square);
+							for (let x = regionX * REGION_SIZE; x < regionX * REGION_SIZE + REGION_SIZE; x++) {
+								for (let z = regionZ * REGION_SIZE; z < regionZ * REGION_SIZE + REGION_SIZE; z++) {
+									let red = data[region].substring(blockIndex, blockIndex + 2);
+									let green = data[region].substring(blockIndex + 2, blockIndex + 4);
+									let blue = data[region].substring(blockIndex + 4, blockIndex + 6);
+
+									let square = document.createElement("div");
+									square.classList.add("map-square");
+									square.style = `top: ${z * SIZE + offsetZ}px; left: ${x * SIZE + offsetX}px; background-color: #${red}${green}${blue}`;
+									document.querySelector(".map").appendChild(square);
+
+									blockIndex += 6;
+								}
+							}
 						}
 					})
 					.catch((error) => {
 						console.error(error);
 					});
 			}
-
-			// setInterval(() => {
-			// 	setMap();
-			// }, 3000);
 			setMap();
 
+			// PAN
 			let fromX = 0,
 				fromY = 0,
 				toX = 0,
