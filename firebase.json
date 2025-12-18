@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/clash",
+				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATllcnQVrbn_xJiTCTiJM7eJdUNFZLSE9ZSUVWWVFYTzc1TjlNVDZJTTRUSi4u",
+				"type": 301
+			},
+			{
 				"source": "/join",
 				"destination": "https://ite.fyi/ITE%20@%20UW%20-%20about%20us%20&%20how%20to%20join.pdf",
 				"type": 301
@@ -17,16 +22,6 @@
 			{
 				"source": "/discord",
 				"destination": "https://discord.gg/uBh5kNvHP8",
-				"type": 301
-			},
-			{
-				"source": "/affinity",
-				"destination": "https://drive.google.com/drive/folders/1QuXWD-R8QQvFSSrKdxeLndi6iipqcdSN?usp=sharing",
-				"type": 301
-			},
-			{
-				"source": "/affinity-mac",
-				"destination": "https://drive.google.com/drive/folders/1DiFvJRh178DL1oZOQoeeCs8Jfc8uI8wz?usp=sharing",
 				"type": 301
 			},
 			{
