@@ -5,6 +5,10 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/w26bot",
+				"destination": "https://forms.cloud.microsoft/r/0s69Mxd7k5",
+				"type": 301
+				
 				"source": "/w26apps",
 				"destination": "https://forms.cloud.microsoft/r/UDzFHzsUx2",
 				"type": 301
