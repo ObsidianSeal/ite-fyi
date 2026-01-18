@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/w26resume",
+				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUNDRZOUEzV1ozQ05GV0RCTEVCNDlGU05DSS4u",
+				"type": 301
+			},
+			{
 				"source": "/w26bot",
 				"destination": "https://forms.cloud.microsoft/r/0s69Mxd7k5",
 				"type": 301
