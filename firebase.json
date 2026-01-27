@@ -4,7 +4,7 @@
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
 		"cleanUrls": true,
 		"redirects": [
-		{
+			{
 				"source": "/feb26music",
 				"destination": "https://pinniped.page/projects/playlists",
 				"type": 301
