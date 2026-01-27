@@ -10,21 +10,6 @@
 				"type": 301
 			},
 			{
-				"source": "/w26resume",
-				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUNDRZOUEzV1ozQ05GV0RCTEVCNDlGU05DSS4u",
-				"type": 301
-			},
-			{
-				"source": "/w26bot",
-				"destination": "https://forms.cloud.microsoft/r/0s69Mxd7k5",
-				"type": 301
-			},
-			{
-				"source": "/w26apps",
-				"destination": "https://forms.cloud.microsoft/r/UDzFHzsUx2",
-				"type": 301
-			},
-			{
 				"source": "/clash",
 				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATllcnQVrbn_xJiTCTiJM7eJdUNFZLSE9ZSUVWWVFYTzc1TjlNVDZJTTRUSi4u",
 				"type": 301
@@ -65,8 +50,18 @@
 				"type": 301
 			},
 			{
+				"source": "/cep",
+				"destination": "https://discord.gg/aaPzSsZWaJ",
+				"type": 301
+			},
+			{
 				"source": "/cive29",
 				"destination": "https://discord.gg/nESVAZgn26",
+				"type": 301
+			},
+			{
+				"source": "/afg",
+				"destination": "https://discord.gg/A94Nb2f8GU",
 				"type": 301
 			},
 			{
