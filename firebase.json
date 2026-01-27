@@ -4,6 +4,11 @@
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
 		"cleanUrls": true,
 		"redirects": [
+		{
+				"source": "/feb26music",
+				"destination": "https://pinniped.page/projects/playlists",
+				"type": 301
+			},
 			{
 				"source": "/w26resume",
 				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUNDRZOUEzV1ozQ05GV0RCTEVCNDlGU05DSS4u",
