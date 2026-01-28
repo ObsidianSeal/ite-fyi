@@ -1,6 +1,7 @@
 # THE VALORANT ACCORDS
 
 1. it&rsquo;s dangerous to go alone, always bring a friend
+     - **[exception 1]** if it&rsquo;s not competitive, whatever floats your boat
 2. warming up is required for all party members
 3. once RR is net positive, you&rsquo;re done
      - **[exception 1]** if playing another game could lead to a rank up, go for it
