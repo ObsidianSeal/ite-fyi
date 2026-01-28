@@ -5,8 +5,13 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
-				"source": "/feb26music",
-				"destination": "https://pinniped.page/projects/playlists",
+				"source": "/rowtmp",
+				"destination": "https://drive.google.com/file/d/1DJT1J7shPvBlNtX7XuwH_43MmQRegyH6/view",
+				"type": 301
+			},
+			{
+				"source": "/umdsccp",
+				"destination": "https://drive.google.com/file/d/1m-lQkCr9W93g68nulTl-1_ef1wHsR2pS/view",
 				"type": 301
 			},
 			{
@@ -67,6 +72,11 @@
 			{
 				"source": "/espuma",
 				"destination": "https://www.youtube.com/watch?v=R1tgBxuRqZ8",
+				"type": 301
+			},
+			{
+				"source": "/feb26music",
+				"destination": "https://pinniped.page/projects/playlists",
 				"type": 301
 			}
 		]
