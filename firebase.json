@@ -20,6 +20,11 @@
 				"type": 301
 			},
 			{
+				"source": "/meeting",
+				"destination": "https://teams.microsoft.com/meet/22058264994958?p=xSTYhMrOWLAKoM1O09",
+				"type": 301
+			},
+			{
 				"source": "/join",
 				"destination": "https://ite.fyi/ITE%20@%20UW%20-%20about%20us%20&%20how%20to%20join.pdf",
 				"type": 301
