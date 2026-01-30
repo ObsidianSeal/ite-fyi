@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en-CA">
 	<head>
@@ -49,14 +49,17 @@
 		<script type="module">
 			"use strict";
 
+			// GLOBAL CONSTANTS
 			const SIZE = 10;
 			const REGION_SIZE = 16;
 
+			// GLOBAL VARIABLES
 			let screenWidth = window.innerWidth;
 			let screenHeight = window.innerHeight;
 			let offsetZ = screenHeight / 2 - SIZE / 2;
 			let offsetX = screenWidth / 2 - SIZE / 2;
 
+			// FIREBASE
 			import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 			import { getDatabase, ref, set, get, push, remove } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
 
@@ -72,6 +75,7 @@
 			const app = initializeApp(firebaseConfig);
 			const database = getDatabase();
 
+			// DRAW THE MAP
 			async function setMap() {
 				document.querySelector(".map").innerHTML = ""; // clear "canvas"
 
@@ -86,14 +90,21 @@
 
 							for (let x = regionX * REGION_SIZE; x < regionX * REGION_SIZE + REGION_SIZE; x++) {
 								for (let z = regionZ * REGION_SIZE; z < regionZ * REGION_SIZE + REGION_SIZE; z++) {
-									let red = data[region].substring(blockIndex, blockIndex + 2);
-									let green = data[region].substring(blockIndex + 2, blockIndex + 4);
-									let blue = data[region].substring(blockIndex + 4, blockIndex + 6);
+									if (
+										z * SIZE + offsetZ >= -SIZE &&
+										z * SIZE + offsetZ <= screenHeight &&
+										x * SIZE + offsetX >= -SIZE &&
+										x * SIZE + offsetX <= screenWidth
+									) {
+										let red = data[region].substring(blockIndex, blockIndex + 2);
+										let green = data[region].substring(blockIndex + 2, blockIndex + 4);
+										let blue = data[region].substring(blockIndex + 4, blockIndex + 6);
 
-									let square = document.createElement("div");
-									square.classList.add("map-square");
-									square.style = `top: ${z * SIZE + offsetZ}px; left: ${x * SIZE + offsetX}px; background-color: #${red}${green}${blue}`;
-									document.querySelector(".map").appendChild(square);
+										let square = document.createElement("div");
+										square.classList.add("map-square");
+										square.style = `top: ${z * SIZE + offsetZ}px; left: ${x * SIZE + offsetX}px; background-color: #${red}${green}${blue}`;
+										document.querySelector(".map").appendChild(square);
+									}
 
 									blockIndex += 6;
 								}
@@ -123,6 +134,12 @@
 				offsetX -= fromX - toX;
 
 				setMap();
+			});
+
+			// RESIZE WINDOW
+			window.addEventListener("resize", () => {
+				screenWidth = window.innerWidth;
+				screenHeight = window.innerHeight;
 			});
 		</script>
 	</body>
