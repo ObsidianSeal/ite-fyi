@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/metrolinx",
+				"destination": "https://forms.cloud.microsoft/r/FBFi0RskVM",
+				"type": 301
+			},
+			{
 				"source": "/conference",
 				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUNTNMNFpZWjFFMDUyU0EwS0Q3UU05RjFNUi4u",
 				"type": 301
