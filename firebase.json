@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/eclrt",
+				"destination": "https://forms.office.com/r/JcewfXY2vj",
+				"type": 301
+			},
+			{
 				"source": "/metrolinx",
 				"destination": "https://forms.cloud.microsoft/r/FBFi0RskVM",
 				"type": 301
