@@ -15,6 +15,16 @@
 				"type": 301
 			},
 			{
+				"source": "/ghd",
+				"destination": "https://forms.office.com/pages/responsepage.aspx?id=h1o6cprzIkqSRz_CQMATlpei6LgrnUlJqjoGjqTZXx5UMTBFR1lSM0cwWEVJMTJNT0RSRzlWR0NIWi4u&route=shorturl",
+				"type": 301
+			},
+			{
+				"source": "/gis",
+				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlmDng-WPj7xKjPxBfRZG3apUMFhRRVBWSDhCOFVBSkoxVk45NDhQTDk0OC4u",
+				"type": 301
+			},
+			{
 				"source": "/conference",
 				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUNTNMNFpZWjFFMDUyU0EwS0Q3UU05RjFNUi4u",
 				"type": 301
