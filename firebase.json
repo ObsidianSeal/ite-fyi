@@ -5,6 +5,11 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
+				"source": "/gis",
+				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlmDng-WPj7xKjPxBfRZG3apUMFhRRVBWSDhCOFVBSkoxVk45NDhQTDk0OC4u",
+				"type": 301
+			},
+			{
 				"source": "/eclrt",
 				"destination": "https://forms.office.com/r/JcewfXY2vj",
 				"type": 301
