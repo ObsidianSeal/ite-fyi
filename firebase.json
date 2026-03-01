@@ -30,11 +30,6 @@
 				"type": 301
 			},
 			{
-				"source": "/gis",
-				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlmDng-WPj7xKjPxBfRZG3apUMFhRRVBWSDhCOFVBSkoxVk45NDhQTDk0OC4u",
-				"type": 301
-			},
-			{
 				"source": "/conference",
 				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlgg4kZorgm5EkcVayXZzjHNUNTNMNFpZWjFFMDUyU0EwS0Q3UU05RjFNUi4u",
 				"type": 301
@@ -50,15 +45,11 @@
 				"type": 301
 			},
 			{
-				"source": "/clash",
-				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATllcnQVrbn_xJiTCTiJM7eJdUNFZLSE9ZSUVWWVFYTzc1TjlNVDZJTTRUSi4u",
-				"type": 301
-			},
-			{
 				"source": "/meeting",
 				"destination": "https://teams.microsoft.com/meet/22058264994958?p=xSTYhMrOWLAKoM1O09",
 				"type": 301
 			},
+
 			{
 				"source": "/join",
 				"destination": "https://ite.fyi/ITE%20@%20UW%20-%20about%20us%20&%20how%20to%20join.pdf",
@@ -74,6 +65,7 @@
 				"destination": "https://discord.gg/uBh5kNvHP8",
 				"type": 301
 			},
+
 			{
 				"source": "/LCmods",
 				"destination": "https://github.com/ObsidianSeal/LethalCompanyMods",
@@ -94,6 +86,7 @@
 				"destination": "https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T&jct=IwitjRkzH9GM79EZxAWGHA",
 				"type": 301
 			},
+
 			{
 				"source": "/cep",
 				"destination": "https://discord.gg/aaPzSsZWaJ",
@@ -109,13 +102,15 @@
 				"destination": "https://discord.gg/A94Nb2f8GU",
 				"type": 301
 			},
+
 			{
 				"source": "/espuma",
 				"destination": "https://www.youtube.com/watch?v=R1tgBxuRqZ8",
 				"type": 301
 			},
+
 			{
-				"source": "/feb26music",
+				"source": "/playlist",
 				"destination": "https://pinniped.page/projects/playlists",
 				"type": 301
 			}
