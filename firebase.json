@@ -67,6 +67,12 @@
 			},
 
 			{
+				"source": "/cln",
+				"destination": "https://discord.gg/XTxt6MVXHv",
+				"type": 301
+			},
+
+			{
 				"source": "/LCmods",
 				"destination": "https://github.com/ObsidianSeal/LethalCompanyMods",
 				"type": 301
