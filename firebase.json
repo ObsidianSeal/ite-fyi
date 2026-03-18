@@ -132,6 +132,12 @@
 			},
 
 			{
+				"source": "/accords",
+				"destination": "https://github.com/ObsidianSeal/ite-fyi/blob/main/public/valorant-accords.md",
+				"type": 301
+			},
+
+			{
 				"source": "/playlist",
 				"destination": "https://pinniped.page/projects/playlists",
 				"type": 301
