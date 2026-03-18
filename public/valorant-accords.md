@@ -12,6 +12,7 @@
           - Deathmatch
           - Escalation
           - Team Deathmatch
+          - Skirmish
 3. once RR is net positive, you&rsquo;re done
      - **[note 1]** this is based on the player with the lowest rank and then least RR
      - **[exception 1]** if playing another game could lead to a rank up, go for it
