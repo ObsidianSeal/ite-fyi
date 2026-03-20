@@ -5,16 +5,6 @@
 		"cleanUrls": true,
 		"redirects": [
 			{
-				"source": "/wcr",
-				"destination": "https://forms.office.com/r/5hHYHd87eD",
-				"type": 301
-			},
-			{
-				"source": "/gis",
-				"destination": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlmDng-WPj7xKjPxBfRZG3apUMFhRRVBWSDhCOFVBSkoxVk45NDhQTDk0OC4u",
-				"type": 301
-			},
-			{
 				"source": "/rowtmp",
 				"destination": "https://drive.google.com/file/d/1DJT1J7shPvBlNtX7XuwH_43MmQRegyH6/view",
 				"type": 301
