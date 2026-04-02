@@ -21,18 +21,23 @@
 			},
 
 			{
-				"source": "/sponsor",
-				"destination": "https://ite.fyi/ITE%20UW%202026%20SPONSORSHIP%20PACKAGE.pdf",
+				"source": "/join",
+				"destination": "https://ite.fyi/assets/documents/join.pdf",
 				"type": 301
 			},
 			{
-				"source": "/join",
-				"destination": "https://ite.fyi/ITE%20@%20UW%20-%20about%20us%20&%20how%20to%20join.pdf",
+				"source": "/sponsor",
+				"destination": "https://ite.fyi/assets/documents/sponsor.pdf",
 				"type": 301
 			},
 			{
 				"source": "/sandbox",
 				"destination": "https://www.itecanada.org/students/student-chapters/university-of-waterloo/sandbox/",
+				"type": 301
+			},
+			{
+				"source": "/sandbox26",
+				"destination": "https://ite.fyi/assets/documents/sandbox.pdf",
 				"type": 301
 			},
 			{
@@ -75,7 +80,7 @@
 			},
 			{
 				"source": "/accords",
-				"destination": "https://github.com/ObsidianSeal/ite-fyi/blob/main/public/valorant-accords.md",
+				"destination": "https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/documents/valorant-accords.md",
 				"type": 301
 			},
 
