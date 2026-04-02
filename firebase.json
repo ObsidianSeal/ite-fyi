@@ -80,11 +80,6 @@
 			},
 
 			{
-				"source": "/cep",
-				"destination": "https://discord.gg/aaPzSsZWaJ",
-				"type": 301
-			},
-			{
 				"source": "/cive29",
 				"destination": "https://discord.gg/nESVAZgn26",
 				"type": 301
@@ -92,6 +87,16 @@
 			{
 				"source": "/afg",
 				"destination": "https://discord.gg/A94Nb2f8GU",
+				"type": 301
+			},
+			{
+				"source": "/cep",
+				"destination": "https://discord.gg/aaPzSsZWaJ",
+				"type": 301
+			},
+			{
+				"source": "/ss",
+				"destination": "https://discord.gg/yswDu7kywv",
 				"type": 301
 			},
 
