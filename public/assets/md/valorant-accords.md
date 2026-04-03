@@ -21,6 +21,6 @@
 
 ---
 
-- RAW: https://ite.fyi/assets/documents/valorant-accords.md
+- RAW: https://ite.fyi/assets/md/valorant-accords.md
 - REDIRECT: https://ite.fyi/accords
-- RENDERED: https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/documents/valorant-accords.md
+- RENDERED: https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/md/valorant-accords.md

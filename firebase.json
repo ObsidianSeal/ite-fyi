@@ -22,12 +22,12 @@
 
 			{
 				"source": "/join",
-				"destination": "https://ite.fyi/assets/documents/join.pdf",
+				"destination": "https://ite.fyi/assets/pdf/join.pdf",
 				"type": 301
 			},
 			{
 				"source": "/sponsor",
-				"destination": "https://ite.fyi/assets/documents/sponsor.pdf",
+				"destination": "https://ite.fyi/assets/pdf/sponsor.pdf",
 				"type": 301
 			},
 			{
@@ -37,7 +37,7 @@
 			},
 			{
 				"source": "/sandbox26",
-				"destination": "https://ite.fyi/assets/documents/sandbox.pdf",
+				"destination": "https://ite.fyi/assets/pdf/sandbox.pdf",
 				"type": 301
 			},
 			{
@@ -80,7 +80,7 @@
 			},
 			{
 				"source": "/accords",
-				"destination": "https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/documents/valorant-accords.md",
+				"destination": "https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/md/valorant-accords.md",
 				"type": 301
 			},
 
