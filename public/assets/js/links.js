@@ -9,8 +9,14 @@ try {
 	const response = await fetch(request);
 	const text = await response.text();
 
-	console.log(text);
+	let links = text.split("\n");
+	for (let link of links) {
+		let from = link.split(",")[0];
+		let to = link.split(",")[1];
+		if (window.location.href.substring(16) == from) window.location.href = to;
+	}
 } catch (error) {
 	console.error(error);
-	// window.location.href = defaultURL;
 }
+
+window.location.href = defaultURL;
