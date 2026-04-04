@@ -3,6 +3,7 @@
 const defaultURL = "https://linktr.ee/uwite";
 if (window.location.href == "https://ite.fyi/") window.location.href = defaultURL;
 
+let redirected = false;
 try {
 	const requestURL = "https://ite.fyi/assets/csv/links.csv";
 	const request = new Request(requestURL);
@@ -13,10 +14,13 @@ try {
 	for (let link of links) {
 		let from = link.split(",")[0];
 		let to = link.split(",")[1];
-		if (window.location.href.substring(16) == from) window.location.href = to;
+		if (window.location.href.substring(16) == from) {
+			redirected = true;
+			window.location.href = to;
+		}
 	}
 } catch (error) {
 	console.error(error);
 }
 
-window.location.href = defaultURL;
+if (!redirected) window.location.href = defaultURL;
