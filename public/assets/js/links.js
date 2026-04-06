@@ -11,7 +11,12 @@ try {
 	const text = await response.text();
 
 	let links = text.split("\n");
+	let header = true;
 	for (let link of links) {
+		if (header) {
+			header = false;
+			continue;
+		}
 		let from = link.split(",")[0];
 		let to = link.split(",")[1];
 		if (window.location.href.substring(16) == from) {
