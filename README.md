@@ -1,4 +1,4 @@
-# ITE FYI
+# ite.fyi
 
 [![CodeFactor](https://www.codefactor.io/repository/github/obsidianseal/ite-fyi/badge)](https://www.codefactor.io/repository/github/obsidianseal/ite-fyi)
 
