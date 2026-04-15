@@ -1,5 +1,7 @@
 # ITE FYI
 
+[![CodeFactor](https://www.codefactor.io/repository/github/obsidianseal/ite-fyi/badge)](https://www.codefactor.io/repository/github/obsidianseal/ite-fyi)
+
 <u><b>I</b></u>nteresting <u><b>T</b></u>hings <u><b>E</b></u>verywhere, <u><b>F</b></u>or <u><b>Y</b></u>our <u><b>I</b></u>nformation
 
 [https://ite.fyi/](https://ite.fyi/)
