@@ -1,6 +1,6 @@
 "use strict";
 
-const defaultURL = "https://linktr.ee/uwite";
+const defaultURL = "https://linktr.ee/ite.uw";
 let redirected = false;
 
 if (window.location.href == "https://ite.fyi/") {
