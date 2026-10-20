@@ -22,9 +22,14 @@ if (!redirected) {
 				header = false;
 				continue;
 			}
-			let from = link.split(",")[0];
-			let to = link.split(",")[1];
+			let line = link.split(",");
+			let from = line[0].trim();
+			let to = line[1].trim();
+			if (/^".+"$/.test(to)) to = to.substring(1, to.length - 2);
+			let description = line[2].trim();
+			let expiry = line[3].trim();
 			if (window.location.pathname.substring(1) == from) {
+				console.log(from, to, description, expiry);
 				redirected = true;
 				window.location.href = to;
 			}
