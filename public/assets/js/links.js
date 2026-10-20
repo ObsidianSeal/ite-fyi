@@ -31,8 +31,8 @@ if (!redirected) {
 			let description = line[2].trim();
 			let expiry = line[3].trim();
 
-			if (/^".+"$/.test(to)) to = to.substring(1, to.length - 2);
-			if (/^".+"$/.test(description)) description = description.substring(1, description.length - 2);
+			if (/^".+"$/.test(to)) to = to.substring(1, to.length - 1);
+			if (/^".+"$/.test(description)) description = description.substring(1, description.length - 1);
 
 			if (window.location.pathname.substring(1) == from) {
 				console.log(`FROM: ${from}\nTO: ${to}\nDESCRIPTION: ${description}\nEXPIRY: ${expiry}`);
