@@ -35,7 +35,7 @@ if (!redirected) {
 			if (/^".+"$/.test(description)) description = description.substring(1, description.length - 2);
 
 			if (window.location.pathname.substring(1) == from) {
-				console.log(from, to, description, expiry);
+				console.log(`FROM: ${from}\nTO: ${to}\nDESCRIPTION: ${description}\nEXPIRY: ${expiry}`);
 				redirected = true;
 				window.location.href = to;
 			}
