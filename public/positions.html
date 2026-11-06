@@ -1,0 +1,781 @@
+<!doctype html>
+
+<html lang="en-CA">
+	<head>
+		<title>ITE UW — open positions</title>
+
+		<link rel="icon" href="assets/png/icon.png" />
+
+		<meta charset="UTF-8" />
+		<meta name="theme-color" content="#00597c" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<meta property="og:url" content="https://ite.fyi/positions" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="ITE UW — open positions" />
+		<meta property="og:description" content="Browse currently open positions within ITE UW." />
+		<meta property="og:image" content="https://ite.fyi/assets/png/icon.png" />
+
+		<meta name="keywords" content="ITE, UW, openings, positions, apply, roles, volunteer, transportation, club, team" />
+		<meta name="description" content="Browse currently open positions within ITE UW." />
+
+		<script src="https://kit.fontawesome.com/c6ef7d4818.js" crossorigin="anonymous"></script>
+
+		<style>
+			@font-face {
+				font-family: "PP Neue Montreal";
+				font-weight: 100;
+				font-style: normal;
+				src: url("assets/woff2/PPNeueMontreal-Thin.woff2");
+			}
+			@font-face {
+				font-family: "PP Neue Montreal";
+				font-weight: 100;
+				font-style: italic;
+				src: url("assets/woff2/PPNeueMontreal-ThinItalic.woff2");
+			}
+			@font-face {
+				font-family: "PP Neue Montreal";
+				font-weight: 400;
+				font-style: normal;
+				src: url("assets/woff2/PPNeueMontreal-Regular.woff2");
+			}
+			@font-face {
+				font-family: "PP Neue Montreal";
+				font-weight: 400;
+				font-style: italic;
+				src: url("assets/woff2/PPNeueMontreal-Italic.woff2");
+			}
+			@font-face {
+				font-family: "PP Neue Montreal";
+				font-weight: 700;
+				font-style: normal;
+				src: url("assets/woff2/PPNeueMontreal-Bold.woff2");
+			}
+			@font-face {
+				font-family: "PP Neue Montreal";
+				font-weight: 700;
+				font-style: italic;
+				src: url("assets/woff2/PPNeueMontreal-BoldItalic.woff2");
+			}
+
+			* {
+				margin: 0;
+				border: 0;
+				padding: 0;
+
+				font-family: "PP Neue Montreal";
+				font-weight: 400;
+				font-style: normal;
+				font-size: 16px;
+			}
+
+			a {
+				color: black;
+
+				text-decoration-thickness: 2px;
+				text-decoration-skip-ink: none;
+				text-decoration-color: #c0c0c0;
+				text-underline-offset: 2px;
+
+				word-wrap: break-word;
+			}
+			a:focus,
+			a:hover {
+				text-decoration-color: #808080;
+			}
+
+			b {
+				display: block;
+
+				margin-top: 10px;
+			}
+
+			b i {
+				margin-left: 5px;
+			}
+
+			body {
+				padding: 10px;
+
+				background-color: #fefefe;
+			}
+
+			h1,
+			h2,
+			b {
+				font-family: "PP Neue Montreal";
+				font-weight: 700;
+				font-style: normal;
+			}
+
+			h1 {
+				margin: 50px 0;
+
+				color: #404040;
+
+				font-size: 64px;
+				text-align: center;
+			}
+
+			h2 {
+				margin-bottom: 10px;
+
+				font-size: 32px;
+			}
+			h2 i {
+				margin-right: 10px;
+
+				font-size: 32px;
+			}
+
+			p {
+				font-family: "PP Neue Montreal";
+				font-weight: 400;
+				font-style: normal;
+				font-size: 16px;
+			}
+
+			section {
+				position: absolute;
+				top: -13px;
+
+				padding-right: 20px;
+
+				background-color: #fefefe;
+
+				line-height: 24px;
+			}
+
+			sup {
+				font-size: 10px;
+			}
+
+			ul {
+				padding-left: 20px;
+			}
+
+			.apply {
+				position: absolute;
+				top: 30px;
+				right: -60px;
+
+				width: 110px;
+				height: 110px;
+
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				border: 5px solid #fefefe;
+				border-radius: 100%;
+
+				font-weight: 700;
+				font-size: 24px;
+
+				text-decoration: none;
+			}
+
+			.elected a {
+				text-decoration-color: #d193aa;
+			}
+			.elected a:hover,
+			.elected a:focus {
+				text-decoration-color: #b24c71;
+			}
+			.elected li::marker {
+				color: #b24c71;
+			}
+			.elected section {
+				color: #b24c71;
+			}
+			.elected .apply {
+				background-color: #e8cad5;
+				color: #b24c71;
+			}
+			.elected .apply:focus,
+			.elected .apply:hover {
+				background-color: #b24c71;
+				color: #e8cad5;
+			}
+
+			.executive a {
+				text-decoration-color: #eebf7a;
+			}
+			.executive a:focus,
+			.executive a:hover {
+				text-decoration-color: #e39522;
+			}
+			.executive li::marker {
+				color: #e39522;
+			}
+			.executive section {
+				color: #e39522;
+			}
+			.executive .apply {
+				background-color: #f7dfbd;
+				color: #e39522;
+			}
+			.executive .apply:focus,
+			.executive .apply:hover {
+				background-color: #e39522;
+				color: #f7dfbd;
+			}
+
+			.footer {
+				margin: 50px 0;
+
+				text-align: center;
+			}
+
+			.graduate a {
+				text-decoration-color: #77b2a6;
+			}
+			.graduate a:focus,
+			.graduate a:hover {
+				text-decoration-color: #1d7f6a;
+			}
+			.graduate li::marker {
+				color: #1d7f6a;
+			}
+			.graduate section {
+				color: #1d7f6a;
+			}
+			.graduate .apply {
+				background-color: #bcd9d3;
+				color: #1d7f6a;
+			}
+			.graduate .apply:focus,
+			.graduate .apply:hover {
+				background-color: #1d7f6a;
+				color: #bcd9d3;
+			}
+
+			.line {
+				position: relative;
+
+				max-width: 1000px;
+
+				margin: 50px auto;
+			}
+			.line.elected {
+				border-top: 2px solid #b24c71;
+			}
+			.line.executive {
+				border-top: 2px solid #e39522;
+			}
+			.line.graduate {
+				border-top: 2px solid #1d7f6a;
+			}
+			.line.officer {
+				border-top: 2px solid #e06225;
+			}
+
+			.officer a {
+				text-decoration-color: #eca17c;
+			}
+			.officer a:focus,
+			.officer a:hover {
+				text-decoration-color: #e06225;
+			}
+			.officer li::marker {
+				color: #e06225;
+			}
+			.officer section {
+				color: #e06225;
+			}
+			.officer .apply {
+				background-color: #f6d0be;
+				color: #e06225;
+			}
+			.officer .apply:focus,
+			.officer .apply:hover {
+				background-color: #e06225;
+				color: #f6d0be;
+			}
+
+			.position {
+				position: relative;
+
+				max-width: 1000px;
+
+				margin: 0 auto 50px auto;
+				border-radius: 5px;
+				padding: 20px;
+			}
+			.position h2 i {
+				--fa-secondary-opacity: 1;
+			}
+			.position.elected {
+				background-color: #e8cad5;
+			}
+			.position.elected h2 {
+				color: #b24c71;
+			}
+			.position.elected h2 i {
+				--fa-secondary-color: #d193aa;
+			}
+			.position.executive {
+				background-color: #f7dfbd;
+			}
+			.position.executive h2 {
+				color: #e39522;
+			}
+			.position.executive h2 i {
+				--fa-secondary-color: #eebf7a;
+			}
+			.position.graduate {
+				background-color: #bcd9d3;
+			}
+			.position.graduate h2 {
+				color: #1d7f6a;
+			}
+			.position.graduate h2 i {
+				--fa-secondary-color: #77b2a6;
+			}
+			.position.officer {
+				background-color: #f6d0be;
+			}
+			.position.officer h2 {
+				color: #e06225;
+			}
+			.position.officer h2 i {
+				--fa-secondary-color: #eca17c;
+			}
+
+			@media all and (max-width: 1200px) {
+				.apply {
+					position: relative;
+					top: 0;
+					right: 0;
+
+					margin-top: 20px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="main">
+			<h1>ITE UW — open positions</h1>
+
+			<div class="elected line"><section>ELECTED</section></div>
+
+			<div class="elected position">
+				<h2><i class="fa-slab-duo fa-regular fa-trophy"></i>President, Society A</h2>
+
+				<b>OPENINGS</b>
+				<p>1</p>
+				<b>TERM</b>
+				<p>16 months (S27–S28)</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid: commit to two on-terms (S27, W28) and two off-terms (F27, S28)</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience within ITE UW</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4" target="_blank">https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4</a> (page 19)</p>
+				<b>APPLICATION METHOD</b>
+				<p>state your intention to run (<a href="mailto:uwaterloo@itecanada.org">email us</a>)</p>
+				<b>DEADLINE</b>
+				<p>April 30<sup>th</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">RUN</a>
+			</div>
+
+			<div class="elected position">
+				<h2><i class="fa-slab-duo fa-regular fa-star"></i>President, Society B</h2>
+
+				<b>OPENINGS</b>
+				<p>1</p>
+				<b>TERM</b>
+				<p>16 months (S27–S28)</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid: commit to two on-terms (F27, S28) and two off-terms (S27, W28)</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience within ITE UW</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4" target="_blank">https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4</a> (page 19)</p>
+				<b>APPLICATION METHOD</b>
+				<p>state your intention to run (<a href="mailto:uwaterloo@itecanada.org">email us</a>)</p>
+				<b>DEADLINE</b>
+				<p>April 30<sup>th</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">RUN</a>
+			</div>
+
+			<div class="elected position">
+				<h2><i class="fa-slab-duo fa-regular fa-newspaper"></i>Secretary</h2>
+
+				<b>OPENINGS</b>
+				<p>1</p>
+				<b>TERM</b>
+				<p>16 months (S27–S28)</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience within ITE UW</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4" target="_blank">https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4</a> (page 21)</p>
+				<b>APPLICATION METHOD</b>
+				<p>state your intention to run (<a href="mailto:uwaterloo@itecanada.org">email us</a>)</p>
+				<b>DEADLINE</b>
+				<p>April 30<sup>th</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">RUN</a>
+			</div>
+
+			<div class="elected position">
+				<h2><i class="fa-slab-duo fa-regular fa-credit-card"></i>Treasurer</h2>
+
+				<b>OPENINGS</b>
+				<p>1</p>
+				<b>TERM</b>
+				<p>16 months (S27–S28)</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience on ITE UW’s Finance Team</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4" target="_blank">https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4</a> (page 21)</p>
+				<b>APPLICATION METHOD</b>
+				<p>state your intention to run (<a href="mailto:uwaterloo@itecanada.org">email us</a>)</p>
+				<b>DEADLINE</b>
+				<p>April 30<sup>th</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">RUN</a>
+			</div>
+
+			<div class="executive line"><section>EXECUTIVE</section></div>
+
+			<!-- <div class="executive position">
+				<h2><i class="fa-slab-duo fa-regular fa-utensils" ></i>Events Director, Society A</h2>
+
+				<b>OPENINGS</b>
+				<p>0</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid; must be on-term with Society A</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience on ITE UW’s Events Team</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 1)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div> -->
+
+			<div class="executive position">
+				<h2><i class="fa-slab-duo fa-regular fa-gamepad"></i>Events Director, Society B</h2>
+
+				<b>OPENINGS</b>
+				<p>1</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid; must be on-term with Society B</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience on ITE UW’s Events Team</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 1)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>January 31<sup>st</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<div class="executive position">
+				<h2><i class="fa-slab-duo fa-regular fa-palette"></i>Marketing Director</h2>
+
+				<b>OPENINGS</b>
+				<p>2</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience on ITE UW’s Marketing Team</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 2)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>January 31<sup>st</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<!-- <div class="executive position">
+				<h2><i class="fa-slab-duo fa-regular fa-shirt" ></i>Merch Director</h2>
+
+				<b>OPENINGS</b>
+				<p>0</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience on ITE UW’s Merch Team</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 3)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>January 31<sup>st</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div> -->
+
+			<div class="executive position">
+				<h2><i class="fa-slab-duo fa-regular fa-volume"></i>Outreach Director</h2>
+
+				<b>OPENINGS</b>
+				<p>1</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; must be on-term with Society B</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>plenty of experience on ITE UW’s Outreach Team</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 4)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>January 31<sup>st</sup>, 2027 @ 23:59</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<div class="officer line"><section>OFFICER</section></div>
+
+			<div class="officer position">
+				<h2><i class="fa-slab-duo fa-regular fa-book-open"></i>Finance Officer</h2>
+
+				<b>OPENINGS</b>
+				<p>unlimited</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>the Treasurer</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 5)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<div class="officer position">
+				<h2><i class="fa-slab-duo fa-regular fa-person-biking"></i>Events Officer, Society A</h2>
+
+				<b>OPENINGS</b>
+				<p>unlimited</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid; must be on-term with Society A</p>
+				<b>REPORTS TO</b>
+				<p>all Events Directors</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 1)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<div class="officer position">
+				<h2><i class="fa-slab-duo fa-regular fa-key"></i>Events Officer, Society B</h2>
+
+				<b>OPENINGS</b>
+				<p>unlimited</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid; must be on-term with Society B</p>
+				<b>REPORTS TO</b>
+				<p>all Events Directors</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 1)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<div class="officer position">
+				<h2><i class="fa-slab-duo fa-regular fa-tv"></i>Marketing Officer</h2>
+
+				<b>OPENINGS</b>
+				<p>unlimited</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>all Marketing Directors</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 2)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<div class="officer position">
+				<h2><i class="fa-slab-duo fa-regular fa-map"></i>Merch Officer</h2>
+
+				<b>OPENINGS</b>
+				<p>unlimited</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>the Merch Director</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 3)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<div class="officer position">
+				<h2><i class="fa-slab-duo fa-regular fa-wifi"></i>Outreach Officer</h2>
+
+				<b>OPENINGS</b>
+				<p>unlimited</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote; either Society</p>
+				<b>REPORTS TO</b>
+				<p>all Outreach Directors</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>a Discord account</li>
+				</ul>
+				<b>GENERAL RESPONSIBILITIES</b>
+				<p><a href="https://ite.fyi/roles" target="_blank">https://ite.fyi/roles</a> (page 4)</p>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div>
+
+			<!-- <div class="graduate line"><section>GRADUATE</section></div> -->
+
+			<!-- <div class="graduate position">
+				<h2><i class="fa-slab-duo fa-regular fa-address-card"></i>Graduate Representative</h2>
+
+				<b>OPENINGS</b>
+				<p>0</p>
+				<b>TERM</b>
+				<p>indefinite</p>
+				<b>WORK ARRANGEMENT</b>
+				<p>hybrid or remote</p>
+				<b>REPORTS TO</b>
+				<p>both Presidents</p>
+				<b>REQUIREMENTS</b>
+				<ul>
+					<li>must be a graduate student</li>
+					<li>a Discord account</li>
+				</ul>
+				<b>APPLICATION METHOD</b>
+				<p><a href="mailto:uwaterloo@itecanada.org">email us</a></p>
+				<b>DEADLINE</b>
+				<p>N/A</p>
+
+				<a class="apply" href="mailto:uwaterloo@itecanada.org">APPLY</a>
+			</div> -->
+
+			<div class="footer">
+				<a href="https://github.com/ObsidianSeal/ite-fyi/commits/main/" target="_blank">last updated November 5<sup>th</sup>, 2026 @ 16:54</a> <i class="fa-solid fa-dot"></i> 3 closed positions hidden <i class="fa-solid fa-dot"></i> keep
+				up with ITE UW at <a href="index.html">ite.fyi</a> <i class="fa-solid fa-dot"></i> a <a href="https://barkingseal.design/" target="_blank">BARKING SEAL DESIGN</a>
+				website
+			</div>
+		</div>
+	</body>
+</html>
