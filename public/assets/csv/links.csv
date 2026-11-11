@@ -1,34 +1,34 @@
-FROM     , TO                                                                                                                                       , DESCRIPTION                                        , EXPIRATION
-accords  , https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/md/valorant-accords.md                                                   , "THE VALORANT ACCORDS"                             , never
-afg      , https://discord.gg/A94Nb2f8GU                                                                                                            , "ALL FUN & GAMES Discord server"                   , never
-at       , https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlrWJcZSTo35Pgpey0vis_0BUNk1GUUkwUFk2M0REMTlGU0I1NVFENFBWQy4u, "Matthew Sweet (City of Mississauga)"              , "2026/12/01 00:00"
-bot      , https://pinniped.page/projects/omega-seal                                                                                                , "Omega Seal documentation"                         , never
-cep      , https://discord.gg/aaPzSsZWaJ                                                                                                            , "Civil Engineers’ Paradise Discord server"         , never
-cive29   , https://discord.gg/nESVAZgn26                                                                                                            , "CIVE ’29 Discord server"                          , never
-cln      , https://discord.gg/P6aVxSe5Xb                                                                                                            , "ITE Canada Chapter Leaders Network Discord server", never
-discord  , https://discord.gg/uBh5kNvHP8                                                                                                            , "ITE UW Discord server"                            , never
-espuma   , https://www.youtube.com/watch?v=R1tgBxuRqZ8                                                                                              , "funny video"                                      , never
-join     , https://ite.fyi/assets/pdf/join.pdf                                                                                                      , "learn how to join ITE officially"                 , never
-LCmods   , https://github.com/ObsidianSeal/LethalCompanyMods                                                                                        , "Lethal Company Mods (GitHub)"                     , never
-LCmods+  , https://github.com/ObsidianSeal/LethalCompanyMods/archive/refs/heads/main.zip                                                            , "Lethal Company Mods (DIRECT DOWNLOAD)"            , never
-LCmusic  , https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T                                                               , "Lethal Company playlist"                          , never
-LCmusic+ , https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T&jct=IwitjRkzH9GM79EZxAWGHA                                    , "contribute to the Lethal Company playlist"        , never
-links    , https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/csv/links.csv                                                            , "list of ite.fyi links (GitHub)"                   , never
-lizard   , https://www.youtube.com/watch?v=kGOQfLFzJj8                                                                                              , "motivational lizard"                              , never
-manual   , https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4                                                                 , "ITE Student Chapter Manual"                       , never
-meeting  , https://teams.microsoft.com/meet/258294654222574?p=yb24Ei4BzeuIWJaLbL                                                                    , "ITE UW recurring Teams meeting"                   , never
-nyt      , https://pinniped.page/posts/2026-04-18                                                                                                   , "NYT code"                                         , never
-playlist , https://pinniped.page/projects/playlists                                                                                                 , "latest playlist from Obsidian_Seal"               , never
-quotes   , https://pinniped.page/projects/rate?0=5%E2%80%98%20%E2%80%99%20%E2%80%9C%20%E2%80%9D                                                     , "get fancy quotes"                                 , never
-roles    , https://docs.google.com/document/d/18LfFtfxr41rDvF8oypSZNTigWDYK_4IE25ivAgtSvVE/edit?usp=sharing                                         , "ITE UW officer roles & responsibilities"          , never
-rowtmp   , https://drive.google.com/file/d/1DJT1J7shPvBlNtX7XuwH_43MmQRegyH6/view                                                                   , "Region of Waterloo TMP.pdf"                       , never
-sandbox  , https://www.itecanada.org/students/student-chapters/university-of-waterloo/sandbox/                                                      , "ITE UW sandbox"                                   , never
-sandbox25, https://ite.fyi/assets/pdf/sandbox25.pdf                                                                                                 , "sandbox 25"                                       , never
-sandbox26, https://ite.fyi/assets/pdf/sandbox26.pdf                                                                                                 , "DEARBORN REBORN"                                  , never
-seals    , https://pinniped.page/posts/2026-05-24                                                                                                   , "SEALS of approval"                                , never
-sponsor  , https://ite.fyi/assets/pdf/sponsor.pdf                                                                                                   , "ITE UW 2026 SPONSORSHIP PACKAGE"                  , never
-ss       , https://discord.gg/yswDu7kywv                                                                                                            , "Seal Squad Discord server"                        , never
-students , https://www.itecanada.org/students/student-chapters/resources/                                                                           , "Student Chapter Resources - ITE Canada"           , never
-3peat    , https://uwaterloo.ca/civil-environmental-engineering/news/university-waterloo-ite-chapter-secures-three-peat                             , "3peat Article by CEE"                             , never
-website  , https://www.itecanada.org/students/student-chapters/university-of-waterloo/                                                              , "ITE UW on ITE Canada"                             , never
-wsp      , https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlmgS6OHPjclAtIESL8jF1b9UMlU4QkhERUhOTTlDVUMxOVNWNllWVUdBTS4u, "Lachlan Fraser (WSP)"                             , "2026/12/01 00:00"
+FROM,TO,DESCRIPTION,EXPIRATION
+accords,https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/md/valorant-accords.md,"THE VALORANT ACCORDS",never
+afg,https://discord.gg/A94Nb2f8GU,"ALL FUN & GAMES Discord server",never
+at,https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlrWJcZSTo35Pgpey0vis_0BUNk1GUUkwUFk2M0REMTlGU0I1NVFENFBWQy4u,"Matthew Sweet (City of Mississauga)","2026/12/01 00:00"
+bot,https://pinniped.page/projects/omega-seal,"Omega Seal documentation",never
+cep,https://discord.gg/aaPzSsZWaJ,"Civil Engineers’ Paradise Discord server",never
+cive29,https://discord.gg/nESVAZgn26,"CIVE ’29 Discord server",never
+cln,https://discord.gg/P6aVxSe5Xb,"ITE Canada Chapter Leaders Network Discord server",never
+discord,https://discord.gg/uBh5kNvHP8,"ITE UW Discord server",never
+espuma,https://www.youtube.com/watch?v=R1tgBxuRqZ8,"funny video",never
+join,https://ite.fyi/assets/pdf/join.pdf,"learn how to join ITE officially",never
+LCmods,https://github.com/ObsidianSeal/LethalCompanyMods,"Lethal Company Mods (GitHub)",never
+LCmods+,https://github.com/ObsidianSeal/LethalCompanyMods/archive/refs/heads/main.zip,"Lethal Company Mods (DIRECT DOWNLOAD)",never
+LCmusic,https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T,"Lethal Company playlist",never
+LCmusic+,https://music.youtube.com/playlist?list=PLTKwBiSgGBshLvhKrVlYW0AzfZhp8oO3T&jct=IwitjRkzH9GM79EZxAWGHA,"contribute to the Lethal Company playlist",never
+links,https://github.com/ObsidianSeal/ite-fyi/blob/main/public/assets/csv/links.csv,"list of ite.fyi links (GitHub)",never
+lizard,https://www.youtube.com/watch?v=kGOQfLFzJj8,"motivational lizard",never
+manual,https://www.ite.org/pub/?id=e26c2551%2D2354%2Dd714%2D5119%2Db00b9cd7a2f4,"ITE Student Chapter Manual",never
+meeting,https://teams.microsoft.com/meet/258294654222574?p=yb24Ei4BzeuIWJaLbL,"ITE UW recurring Teams meeting",never
+nyt,https://pinniped.page/posts/2026-04-18,"NYT code",never
+playlist,https://pinniped.page/projects/playlists,"latest playlist from Obsidian_Seal",never
+quotes,https://pinniped.page/projects/rate?0=5%E2%80%98%20%E2%80%99%20%E2%80%9C%20%E2%80%9D,"get fancy quotes",never
+roles,https://docs.google.com/document/d/18LfFtfxr41rDvF8oypSZNTigWDYK_4IE25ivAgtSvVE/edit?usp=sharing,"ITE UW officer roles & responsibilities",never
+rowtmp,https://drive.google.com/file/d/1DJT1J7shPvBlNtX7XuwH_43MmQRegyH6/view,"Region of Waterloo TMP.pdf",never
+sandbox,https://www.itecanada.org/students/student-chapters/university-of-waterloo/sandbox/,"ITE UW sandbox",never
+sandbox25,https://ite.fyi/assets/pdf/sandbox25.pdf,"sandbox 25",never
+sandbox26,https://ite.fyi/assets/pdf/sandbox26.pdf,"DEARBORN REBORN",never
+seals,https://pinniped.page/posts/2026-05-24,"SEALS of approval",never
+sponsor,https://ite.fyi/assets/pdf/sponsor.pdf,"ITE UW 2026 SPONSORSHIP PACKAGE",never
+ss,https://discord.gg/yswDu7kywv,"Seal Squad Discord server",never
+students,https://www.itecanada.org/students/student-chapters/resources/,"Student Chapter Resources - ITE Canada",never
+3peat,https://uwaterloo.ca/civil-environmental-engineering/news/university-waterloo-ite-chapter-secures-three-peat,"3peat Article by CEE",never
+website,https://www.itecanada.org/students/student-chapters/university-of-waterloo/,"ITE UW on ITE Canada",never
+wsp,https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h1o6cprzIkqSRz_CQMATlmgS6OHPjclAtIESL8jF1b9UMlU4QkhERUhOTTlDVUMxOVNWNllWVUdBTS4u,"Lachlan Fraser (WSP)","2026/12/01 00:00"
