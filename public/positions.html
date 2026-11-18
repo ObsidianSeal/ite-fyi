@@ -22,6 +22,29 @@
 		<script src="https://kit.fontawesome.com/c6ef7d4818.js" crossorigin="anonymous"></script>
 
 		<style>
+			:root {
+				--elected-100: #b24c71;
+				--elected-60: #d193aa;
+				--elected-30: #e8cad5;
+
+				--executive-100: #eaaa00;
+				--executive-60: #f2cc66;
+				--executive-30: #f9e6b3;
+
+				--graduate-100: #1d7f6a;
+				--graduate-60: #77b2a6;
+				--graduate-30: #bcd9d3;
+
+				--officer-100: #e35205;
+				--officer-60: #ee9769;
+				--officer-30: #f7cbb4;
+
+				--g1: #404040;
+				--g2: #808080;
+				--g3: #c0c0c0;
+				--g4: #fefefe;
+			}
+
 			@font-face {
 				font-family: "PP Neue Montreal";
 				font-weight: 100;
@@ -75,14 +98,14 @@
 
 				text-decoration-thickness: 2px;
 				text-decoration-skip-ink: none;
-				text-decoration-color: #c0c0c0;
+				text-decoration-color: var(--g3);
 				text-underline-offset: 2px;
 
 				word-wrap: break-word;
 			}
 			a:focus,
 			a:hover {
-				text-decoration-color: #808080;
+				text-decoration-color: var(--g2);
 			}
 
 			b {
@@ -98,7 +121,7 @@
 			body {
 				padding: 10px;
 
-				background-color: #fefefe;
+				background-color: var(--g4);
 			}
 
 			h1,
@@ -112,7 +135,7 @@
 			h1 {
 				margin: 50px 0;
 
-				color: #404040;
+				color: var(--g1);
 
 				font-size: 64px;
 				text-align: center;
@@ -142,7 +165,7 @@
 
 				padding-right: 20px;
 
-				background-color: #fefefe;
+				background-color: var(--g4);
 
 				line-height: 24px;
 			}
@@ -167,7 +190,7 @@
 				align-items: center;
 				justify-content: center;
 
-				border: 5px solid #fefefe;
+				border: 5px solid var(--g4);
 				border-radius: 100%;
 
 				font-weight: 700;
@@ -177,49 +200,49 @@
 			}
 
 			.elected a {
-				text-decoration-color: #d193aa;
+				text-decoration-color: var(--elected-60);
 			}
 			.elected a:hover,
 			.elected a:focus {
-				text-decoration-color: #b24c71;
+				text-decoration-color: var(--elected-100);
 			}
 			.elected li::marker {
-				color: #b24c71;
+				color: var(--elected-100);
 			}
 			.elected section {
-				color: #b24c71;
+				color: var(--elected-100);
 			}
 			.elected .apply {
-				background-color: #e8cad5;
-				color: #b24c71;
+				background-color: var(--elected-30);
+				color: var(--elected-100);
 			}
 			.elected .apply:focus,
 			.elected .apply:hover {
-				background-color: #b24c71;
-				color: #e8cad5;
+				background-color: var(--elected-100);
+				color: var(--elected-30);
 			}
 
 			.executive a {
-				text-decoration-color: #eebf7a;
+				text-decoration-color: var(--executive-60);
 			}
 			.executive a:focus,
 			.executive a:hover {
-				text-decoration-color: #e39522;
+				text-decoration-color: var(--executive-100);
 			}
 			.executive li::marker {
-				color: #e39522;
+				color: var(--executive-100);
 			}
 			.executive section {
-				color: #e39522;
+				color: var(--executive-100);
 			}
 			.executive .apply {
-				background-color: #f7dfbd;
-				color: #e39522;
+				background-color: var(--executive-30);
+				color: var(--executive-100);
 			}
 			.executive .apply:focus,
 			.executive .apply:hover {
-				background-color: #e39522;
-				color: #f7dfbd;
+				background-color: var(--executive-100);
+				color: var(--executive-30);
 			}
 
 			.footer {
@@ -229,26 +252,26 @@
 			}
 
 			.graduate a {
-				text-decoration-color: #77b2a6;
+				text-decoration-color: var(--graduate-60);
 			}
 			.graduate a:focus,
 			.graduate a:hover {
-				text-decoration-color: #1d7f6a;
+				text-decoration-color: var(--graduate-100);
 			}
 			.graduate li::marker {
-				color: #1d7f6a;
+				color: var(--graduate-100);
 			}
 			.graduate section {
-				color: #1d7f6a;
+				color: var(--graduate-100);
 			}
 			.graduate .apply {
-				background-color: #bcd9d3;
-				color: #1d7f6a;
+				background-color: var(--graduate-30);
+				color: var(--graduate-100);
 			}
 			.graduate .apply:focus,
 			.graduate .apply:hover {
-				background-color: #1d7f6a;
-				color: #bcd9d3;
+				background-color: var(--graduate-100);
+				color: var(--graduate-30);
 			}
 
 			.hidden {
@@ -263,39 +286,39 @@
 				margin: 50px auto;
 			}
 			.line.elected {
-				border-top: 2px solid #b24c71;
+				border-top: 2px solid var(--elected-100);
 			}
 			.line.executive {
-				border-top: 2px solid #e39522;
+				border-top: 2px solid var(--executive-100);
 			}
 			.line.graduate {
-				border-top: 2px solid #1d7f6a;
+				border-top: 2px solid var(--graduate-100);
 			}
 			.line.officer {
-				border-top: 2px solid #e06225;
+				border-top: 2px solid var(--officer-100);
 			}
 
 			.officer a {
-				text-decoration-color: #eca17c;
+				text-decoration-color: var(--officer-60);
 			}
 			.officer a:focus,
 			.officer a:hover {
-				text-decoration-color: #e06225;
+				text-decoration-color: var(--officer-100);
 			}
 			.officer li::marker {
-				color: #e06225;
+				color: var(--officer-100);
 			}
 			.officer section {
-				color: #e06225;
+				color: var(--officer-100);
 			}
 			.officer .apply {
-				background-color: #f6d0be;
-				color: #e06225;
+				background-color: var(--officer-30);
+				color: var(--officer-100);
 			}
 			.officer .apply:focus,
 			.officer .apply:hover {
-				background-color: #e06225;
-				color: #f6d0be;
+				background-color: var(--officer-100);
+				color: var(--officer-30);
 			}
 
 			.position {
@@ -311,40 +334,40 @@
 				--fa-secondary-opacity: 1;
 			}
 			.position.elected {
-				background-color: #e8cad5;
+				background-color: var(--elected-30);
 			}
 			.position.elected h2 {
-				color: #b24c71;
+				color: var(--elected-100);
 			}
 			.position.elected h2 i {
-				--fa-secondary-color: #d193aa;
+				--fa-secondary-color: var(--elected-60);
 			}
 			.position.executive {
-				background-color: #f7dfbd;
+				background-color: var(--executive-30);
 			}
 			.position.executive h2 {
-				color: #e39522;
+				color: var(--executive-100);
 			}
 			.position.executive h2 i {
-				--fa-secondary-color: #eebf7a;
+				--fa-secondary-color: var(--executive-60);
 			}
 			.position.graduate {
-				background-color: #bcd9d3;
+				background-color: var(--graduate-30);
 			}
 			.position.graduate h2 {
-				color: #1d7f6a;
+				color: var(--graduate-100);
 			}
 			.position.graduate h2 i {
-				--fa-secondary-color: #77b2a6;
+				--fa-secondary-color: var(--graduate-60);
 			}
 			.position.officer {
-				background-color: #f6d0be;
+				background-color: var(--officer-30);
 			}
 			.position.officer h2 {
-				color: #e06225;
+				color: var(--officer-100);
 			}
 			.position.officer h2 i {
-				--fa-secondary-color: #eca17c;
+				--fa-secondary-color: var(--officer-60);
 			}
 
 			@media all and (max-width: 1200px) {
@@ -943,7 +966,11 @@
 				</ul>
 				<b>GENERAL RESPONSIBILITIES</b>
 				<ul>
-					<li></li>
+					<li>reach out to Graduate Coordinators about events; maintain communication with Graduate Coordinators as necessary</li>
+					<li>educate and increase undergraduate students&rsquo; awareness about graduate programs in transportation (here and elsewhere)</li>
+					<li>lead marketing efforts towards graduate students (i.e. increase graduate student attendance at our events)</li>
+					<li>represent graduate students at events (e.g. open houses, industry nights)</li>
+					<li>help out with various tasks</li>
 				</ul>
 				<b>APPLICATION METHOD</b>
 				<p>
